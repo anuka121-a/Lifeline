@@ -55,5 +55,111 @@ body{
     width: 34px !important;
     cursor: pointer;
 }
-
-
+.nav{
+    height: 90px;
+    background-color: #ffffff;
+}
+.logo{
+    margin-left: 50px;
+    height: 90px;
+}
+.logo img{
+    height: 54px;
+}
+.l{
+    font-size: 55px;
+}
+.logo h1{
+    color: #4fc0aa;
+}
+.menu li{
+    list-style: none;
+    font-size: 13px;
+    margin-right: 40px;
+    transition: 0.4s;
+}
+.donate{
+    padding: 10px 15px;
+    background:  #4fc0aa;
+    font-size: 13px;
+    height: min-content;
+    color: white;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.menu li:hover{
+    list-style: circle;
+    color: #4fc0aa;
+    cursor: pointer;
+}
+.menu a:hover{
+    color: white;
+    background-color:#333333;
+    text-decoration: none;
+    cursor: pointer;
+}
+.home{
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.simple{
+    width: 150px;
+    height: 150px;
+    background: azure;
+    top: 90px;
+    border-top: 3px solid #4fc0aa;
+    display: none;
+    transition: 0.4s;
+    background-color: white;
+}
+.simple li{
+    height: 30px;
+    border-bottom: 1px solid #9c9191;
+    color: #9c9191;
+    width: 130px;
+    text-align: center;
+    margin-left: 10px;
+}
+.simple li:last-child{
+    border-bottom: none;
+}
+.home:hover .simple{
+    display: block;
+}
+.simple li:hover{
+    list-style: none;
+}
+.about{
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.about-sim{
+    width: 150px;
+    height: 150px;
+    background: azure;
+    top: 90px;
+    border-top: 3px solid #4fc0aa;
+    display: none;
+    transition: 0.4s;
+    background-color: white;
+}
+.about-sim li{
+    height: 30px;
+    border-bottom: 1px solid #9c9191;
+    color: #9c9191;
+    width: 100%;
+    text-align: center;
+}
+.about-sim li:hover{
+    background-color: #4fc0aa;
+    color: white;
+    list-style: none;
+}
+.about-sim li:last-child{
+    border-bottom: none;
+}
+.about:hover .about-sim{
+    display: block;
+}
