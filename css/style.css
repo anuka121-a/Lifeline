@@ -3,5 +3,57 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+.top-bar{
+    height: 40px;
+    background: #333333;
+}
+.contact{
+    width: 650px;
+    height: 40px;
+}
+.adress{
+    font-size: 12px;
+    color: #9c9191;
+}
+.adress p{
+    margin-top: 14px;
+    margin-left: 8px;
+}
+.mobile{
+    font-size: 12px;
+    color: #9c9191;
+}
+.mobile p{
+    margin-top: 14px;
+    margin-left: 8px;
+}
+.mail{
+    font-size: 12px;
+    color: #9c9191;
+}
+.mail p{
+    margin-top: 14px;
+    margin-left: 8px;
+}
+.social{
+    height: 40px;
+    width: 200px;
+    color: #9c9191;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.soc{
+    background-color: #ffffff;
+    height: 30px;
+    width: 30px !important;
+    font-size: 40px !important;
+    padding: 6px;
+    border-radius: 3px 3px 0 0;
+    transition: 0.4s;
+}
+.soc:hover{
+    width: 34px !important;
+    cursor: pointer;
+}
 
 
