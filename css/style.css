@@ -163,3 +163,8 @@ body{
 .about:hover .about-sim{
     display: block;
 }
+.slide{
+    height: 530px;
+    background-color: whitesmoke;
+    padding: 0;
+}
