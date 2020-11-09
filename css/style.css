@@ -112,6 +112,7 @@ body{
     display: none;
     transition: 0.4s;
     background-color: white;
+    z-index: 4;
 }
 .simple li{
     height: 30px;
@@ -134,6 +135,7 @@ body{
     height: 90px;
     display: flex;
     align-items: center;
+    
 }
 .about-sim{
     width: 150px;
@@ -144,6 +146,7 @@ body{
     display: none;
     transition: 0.4s;
     background-color: white;
+    z-index: 5;
 }
 .about-sim li{
     height: 30px;
@@ -167,4 +170,133 @@ body{
     height: 530px;
     background-color: whitesmoke;
     padding: 0;
+}
+.causes{
+    height: 540px;
+    background-color: #ffffff;
+}
+.gave{
+    width: 260px;
+}
+.gave h2{
+    margin-top: 40px;
+    font-size: 25px;
+    color: #7c7c7c;
+    border-bottom: 1px solid #7c7c7c;
+    height: 50px;
+}
+.poor{
+    width: 800px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.poor h2{
+    margin-top: 40px;
+    font-size: 25px;
+    color: #7c7c7c;
+    border-bottom: 1px solid #7c7c7c;
+    height: 50px;
+}
+.our{
+    color: #4fc0aa;
+    margin-right: 10px;
+}
+.us{
+    color: #4fc0aa;
+    margin-right: 10px;
+}
+.money{
+    background:rgba(224, 224, 223, 0.95);
+    width: 236px;
+    height: 80px;
+    bottom: 10px;
+    transition: all 0.3s ease 0s;
+}
+.poor h4{
+    font-size: 15px;
+}
+.poor p{
+    font-size: 12px;
+}
+.dollar{
+    font-size: 15px;
+}
+.pict{
+    background: #777676;
+    margin-top: 72px;
+    height: 314px;
+}
+.need{
+    width: 230px;
+    height: 314px;
+    top: 0;
+    justify-content: space-evenly;
+}
+.need h4{
+    font-size: 17px;
+    color: white;
+}
+.need p{
+    font-size: 12px;
+    color: white;
+}
+.need h5{
+    font-size: 16px;
+    padding: 9px 20px;
+    background-color: #4fc0aa;
+    color: white;
+}
+.need h6{
+    font-size: 11px;
+}
+.clean{
+    height: 314px;
+    transition: all 0.3s ease 0s;
+}
+.help{
+    height: 300px;
+    background: rgba(224, 224, 223, 0.95);
+    width: 224px;
+    top: 7px;
+    left: 20px;
+    padding-left: 20px;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
+}
+.help h3{
+    font-size: 15px;
+    margin-top: 30px;
+}
+.help p{
+    font-size: 13px;
+}
+.help h6{
+    font-size: 13px;
+}
+.help-us{
+    font-size: 15px;
+}
+.amount{
+    font-size: 23px !important;
+    float: right;
+    margin-right: 15px;
+    color: #4fc0aa;
+}
+.doll{
+    font-size: 30px;
+    color: #7c7c7c;
+}
+.africa{
+    color: #4fc0aa;
+}
+.text-of-help{
+    width: 200px;
+}
+.clean:hover .help{
+    transform: scale(1);
+}
+.clean:hover .money{
+    /* display: none; */
+    bottom: -86px;
+    z-index: -1;
 }
