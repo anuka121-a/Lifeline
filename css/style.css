@@ -166,7 +166,7 @@ body{
 .about:hover .about-sim{
     display: block;
 }
-.slide{
+.slide2{
     height: 530px;
     background-color: whitesmoke;
     padding: 0;
@@ -296,7 +296,43 @@ body{
     transform: scale(1);
 }
 .clean:hover .money{
-    /* display: none; */
     bottom: -86px;
     z-index: -1;
+}
+.stuff{
+    background: lightseagreen;
+    height: 300px;
+}
+.carousel-of-stuff{
+    width: 265px;
+    margin-right: 0px;
+}
+.carousel-of-stuff img{
+    border: 4px solid #FFFFFF;
+    border-radius: 10px;
+}
+.inner-of-stuff{
+    top: -40px;
+}
+.indicator-of-stuff{
+    bottom: -195px;
+}
+.indicator-of-stuff li{
+    border-radius: 100%;
+    border: 2px solid;
+    width: 15px;
+    height: 15px;
+}
+.img-of-stuff{
+    border: 4px solid #FFFFFF;
+    border-radius: 10px;
+}
+.fade-of-stuff{
+    top: -40px;
+}
+.p-of-stuff{
+    font-size: 15px;
+}
+.ceo{
+    margin-left: 10px;
 }
