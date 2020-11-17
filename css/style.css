@@ -452,3 +452,108 @@ img:hover{
 .col-of-wlef:hover .green{
     transform: scale(1);
 }
+.footer{
+    height: 445px;
+    background: url(../img/footer-bg.png) rgba(0, 0, 0, 0.9);
+    background-size: 100% 100%;
+}
+.title-of-footer{
+    margin-top: 70px;
+}
+.title-of-footer h4{
+    font-size: 20px;
+}
+.dotted{
+    border-bottom: 1px dotted #939292;
+    width: 78px;
+    height: 20px;
+    margin-left: 10px;
+}
+.p{
+    color: #4fc0aa;
+}
+.text-of-footer{
+    font-size: 11px;
+    line-height: 24px;
+    color: #969595;
+    border-left: 1px dotted #6F6F6F;
+    padding-left: 17px;
+    margin-top: 25px;
+}
+.L{
+    font-size: 46px;
+    float: left;
+    margin-right: 10px;
+    height: 35px;
+    margin-top: 10px;
+}
+.thoms{
+    font-size: 12px;
+    color: #cccccc;
+}
+.australia{
+    font-size: 12px;
+    color: #767575;
+}
+.flickr-img{
+    margin-top: 25px;
+}
+.flickr-img img{
+    border-radius: 4px;
+    margin-top: 7px;
+}
+.flickr-img img:hover{
+    filter: grayscale(1);
+}
+.adress-of-life li{
+    list-style: none;
+}
+.details-of-contact{
+    color: #cccccc;
+    font-size: 12px;
+}
+.adress-of-life p{
+    font-size: 11px;
+    color: #767575;
+}
+.newsletter{
+    height: 150px;
+    background-color: #4fc0aa;
+    margin-top: 75px;
+    border-radius: 3px;
+    padding-top: 15px;
+}
+.newsletter h4{
+    font-size: 20px;
+}
+.newsletter p{
+    font-size: 12px;
+}
+.newsletter input{
+    width: 84%;
+    margin-left: 20px;
+    font-size: 12px;
+    background: rgba(255, 255, 255, 0.66);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+.socialicons{
+    height: 75px;
+}
+.sendmail{
+    height: 80px;
+    background-color: #4fc0aa;
+    border-radius: 3px;   
+}
+.sendmail input{
+    width: 84%;
+    margin-left: 20px;
+    font-size: 12px;
+    background: rgba(255, 255, 255, 0.66);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+}
