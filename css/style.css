@@ -1,5 +1,5 @@
 body{
-    background: url(https://html.webinane.com/lifeline/images/boxed-bg1.jpg) repeat 0 0 transparent;
+    background: url(../img/boxed-bg1.jpg) repeat 0 0 transparent;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -335,4 +335,120 @@ body{
 }
 .ceo{
     margin-left: 10px;
+}
+.projects{
+    height: 510px;
+    background-color: whitesmoke;
+}
+.row-of-project{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-of-project h2{
+    font-size: 25px;
+    margin-top: 40px;
+    color: #7c7c7c;
+    border-bottom: 1px solid #7c7c7c;
+    height: 50px;
+}
+.col-of-lorem p{
+    font-size: 12px;
+    color: #818181;
+}
+.title-of-news{
+    color: #656565;
+    font-size: 15px !important;
+}
+.title-of-news:hover{
+    color: #656565;
+    text-decoration: none;
+}
+.ind-of-car{
+    background: #dedcdc;
+    width: 100%;
+    height: 140px;
+    top: 230px;
+    left: -77px;
+    border-radius: 5px;
+}
+.ind-of-car img{
+    width: 140px;
+    height: 80px;
+    border: 2px solid #f8f7f7;
+    border-radius: 5px;
+}
+.ind-of-car p{
+    font-size: 12px;
+}
+.video-of-news{
+    background: rgba(0, 0, 0, 0.7);
+    width: 240px;
+    height: 185px;
+    position: absolute;
+    visibility: hidden;
+}
+.player{
+    color: white;
+    font-size: 85px;
+    transition: 0.4s;
+}
+.col-of-video:hover .video-of-news{
+    visibility: visible;
+}
+.video-of-news:hover .player{
+    font-size: 55px;
+}
+img:hover{
+    cursor: pointer;
+}
+.row-of-welfare{
+    width: 100%;
+    height: 370px;
+}
+.icon-div{
+    width: 45%;
+    height: 70%;
+    border: 1px solid #DDDCDC;
+    border-radius: 100%;
+}
+.icon-of-pro{
+    font-size: 45px;
+    color: #a5a4a4;
+}
+.text-of-welfare{
+    width: 175px;
+    margin-left: 10px;
+}
+.text-of-welfare h6{
+    font-size: 14px;
+    color: #656565;
+}
+.text-of-welfare p{
+    font-size: 12px;
+    color: #818181;
+}
+.green{
+    background-color: #4fc0aa;
+    border-radius: 50%;
+    transition: 0.4s;
+    transform: scale(0);
+}
+.green h6{
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.green p{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.green button{
+    font-size: 10px;
+    color: #aeafae;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+.col-of-wlef:hover .green{
+    transform: scale(1);
 }
