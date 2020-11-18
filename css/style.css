@@ -63,6 +63,9 @@ body{
     margin-left: 50px;
     height: 90px;
 }
+.logo a:hover{
+    text-decoration: none;
+}
 .logo img{
     height: 54px;
 }
@@ -452,10 +455,10 @@ img:hover{
 .col-of-wlef:hover .green{
     transform: scale(1);
 }
-.footer{
-    height: 445px;
-    background: url(../img/footer-bg.png) rgba(0, 0, 0, 0.9);
-    background-size: 100% 100%;
+.img-of-footer{
+    background: rgba(0, 0, 0, 0.9);
+    filter: brightness(0.5);
+    width: 100%;
 }
 .title-of-footer{
     margin-top: 70px;
@@ -504,6 +507,9 @@ img:hover{
 }
 .flickr-img img:hover{
     filter: grayscale(1);
+}
+.adress-of-life{
+    margin-top: 25px;
 }
 .adress-of-life li{
     list-style: none;
@@ -556,4 +562,12 @@ img:hover{
     outline: none;
     border-radius: 3px;
     padding: 5px;
+}
+.bottom-footer{
+    background-color: #323131;
+    height: 75px;
+}
+.bottom-footer p{
+    font-size: 12px;
+    color: #969595;
 }
